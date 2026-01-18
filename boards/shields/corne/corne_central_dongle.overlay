@@ -111,6 +111,6 @@
   trackball_listener {
     status = "okay";
     device = <&trackball>;
-	input-processors = <&zip_ble_report_rate_limit>;
+	input-processors = <&zip_temp_layer 3 1000>;
   };
 };
