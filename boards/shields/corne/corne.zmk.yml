@@ -11,5 +11,5 @@ features:
   - studio
 siblings:
   - corne_central_dongle
-  - corne_left
-  - corne_right
+  - corne_peripheral_left
+  - corne_peripheral_right
