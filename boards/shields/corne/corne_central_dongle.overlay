@@ -98,7 +98,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
-        cpi = <3200>;
+        cpi = <600>;
         x-invert;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
