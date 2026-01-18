@@ -1,0 +1,15 @@
+file_format: "1"
+id: corne
+name: Corne
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [nice_nano]
+features:
+  - keys
+  - display
+  - pointer
+  - studio
+siblings:
+  - corne_central_dongle
+  - corne_left
+  - corne_right
