@@ -1,0 +1,6 @@
+if SHIELD_363U
+
+config ZMK_KEYBOARD_NAME
+    default "3x6+3-u"
+
+endif
