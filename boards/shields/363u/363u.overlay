@@ -102,19 +102,3 @@
         transform = <&default_transform>;
     };
 };
-
-/ {
-    encoder: encoder {
-        compatible = "alps,ec11";
-        a-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  // D8 = P1.04
-        b-gpios = <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  // D9 = P1.06
-        steps = <48>;
-        status = "okay";
-    };
-
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&encoder>;
-        triggers-per-rotation = <24>;
-    };
-};
