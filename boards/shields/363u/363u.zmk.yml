@@ -7,5 +7,3 @@ requires:
   - pro_micro_footprint
 features:
   - keys
-  - encoder
-  - display
