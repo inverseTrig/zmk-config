@@ -1,5 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+&uicr {
+    nfct-pins-as-gpios;
+};
+
 / {
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
