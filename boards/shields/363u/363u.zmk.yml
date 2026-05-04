@@ -1,6 +1,6 @@
 file_format: "1"
 id: 363u
-name: 3x6+3-u
+name: 363u
 type: shield
 url: https://github.com/inverseTrig/zmk-config
 requires:
