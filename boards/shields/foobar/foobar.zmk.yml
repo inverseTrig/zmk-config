@@ -1,6 +1,6 @@
 file_format: "1"
-id: 363u
-name: 363u
+id: foobar
+name: foobar
 type: shield
 url: https://github.com/inverseTrig/zmk-config
 requires:

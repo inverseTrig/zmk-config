@@ -18,4 +18,4 @@ include:
     shield: scroller
 
   - board: nice_nano
-    shield: 363u
+    shield: foobar

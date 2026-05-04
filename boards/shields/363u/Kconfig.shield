@@ -1,2 +1,0 @@
-config SHIELD_363U
-    def_bool $(shields_list_contains,363u)

@@ -1,6 +1,0 @@
-if SHIELD_363U
-
-config ZMK_KEYBOARD_NAME
-    default "363u"
-
-endif
