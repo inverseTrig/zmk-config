@@ -3,14 +3,6 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &physical_layout0;
-    };
-
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        kscan = <&kscan0>;
-        transform = <&default_transform>;
     };
 
     default_transform: keymap_transform0 {
@@ -23,9 +15,8 @@
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
-        wakeup-source;
 
-        col-gpios = <&gpio1 15 GPIO_ACTIVE_HIGH>;   // COL_4 (D18 = P1.15)
-        row-gpios = <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // ROW_2 (D5 = P0.24)
+        col-gpios = <&pro_micro 18 GPIO_ACTIVE_HIGH>;
+        row-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 };
